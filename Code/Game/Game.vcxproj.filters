@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Gameplay">
+      <UniqueIdentifier>{1242f8b1-3a08-49a1-aea0-04f1331e992e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities">
+      <UniqueIdentifier>{2996ad55-5ca1-4c11-a2e4-7b3a59b92b9c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main_Windows.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="App.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="GameCommon.cpp">
+      <Filter>Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="Game2D.cpp">
+      <Filter>Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="Game3D.cpp">
+      <Filter>Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="CCDIKTest.cpp">
+      <Filter>Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="FABRIKTest.cpp">
+      <Filter>Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="RoboticArm.cpp">
+      <Filter>Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimalMode.cpp">
+      <Filter>Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Snake.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Spider.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Octopus.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Terrain.cpp">
+      <Filter>Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="SnakeFollow.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="SpiderIK.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="OctopusIK.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="App.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="GameCommon.h">
+      <Filter>Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineBuildPreferences.hpp" />
+    <ClInclude Include="Game2D.hpp">
+      <Filter>Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="Game3D.hpp">
+      <Filter>Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="CCDIKTest.hpp">
+      <Filter>Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="FABRIKTest.hpp">
+      <Filter>Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="RoboticArm.hpp">
+      <Filter>Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimalMode.hpp">
+      <Filter>Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.hpp">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Snake.hpp">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Octopus.hpp">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Terrain.hpp">
+      <Filter>Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="Spider.hpp">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="SnakeFollow.hpp">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="SpiderIK.hpp">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="OctopusIK.hpp">
+      <Filter>Entities</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\..\Run\Data\Shaders\WorldShader.hlsl">
+      <Filter>Framework</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Run\Data\Shaders\BlinnPhong.hlsl">
+      <Filter>Framework</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Run\Data\Shaders\BlinnPhong_Skinned.hlsl">
+      <Filter>Framework</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Run\Data\Shaders\BlinnPhong_RB.hlsl">
+      <Filter>Framework</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Run\Data\Shaders\BlinnPhong_Octopus.hlsl">
+      <Filter>Framework</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Run\Data\Shaders\BlinnPhong_Snake.hlsl">
+      <Filter>Framework</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Run\Data\Shaders\BlinnPhong_Spider.hlsl">
+      <Filter>Framework</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
